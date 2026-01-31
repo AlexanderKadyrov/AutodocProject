@@ -357,7 +357,7 @@
 			repositoryURL = "git@github.com:AlexanderKadyrov/Autodoc.git";
 			requirement = {
 				kind = exactVersion;
-				version = 1.0.0;
+				version = 1.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
