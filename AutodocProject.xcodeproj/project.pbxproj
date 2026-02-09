@@ -6,16 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		11EBC5192F2EA144007C8E2D /* Autodoc in Frameworks */ = {isa = PBXBuildFile; productRef = 11EBC5182F2EA144007C8E2D /* Autodoc */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		11EBC4E12F2E9E54007C8E2D /* AutodocProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutodocProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		11EBC4F32F2E9E55007C8E2D /* Exceptions for "AutodocProject" folder in "AutodocProject" target */ = {
+		119650C82F3A74F000B83633 /* Exceptions for "AutodocProject" folder in "AutodocProject" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -28,7 +24,7 @@
 		11EBC4E32F2E9E54007C8E2D /* AutodocProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				11EBC4F32F2E9E55007C8E2D /* Exceptions for "AutodocProject" folder in "AutodocProject" target */,
+				119650C82F3A74F000B83633 /* Exceptions for "AutodocProject" folder in "AutodocProject" target */,
 			);
 			path = AutodocProject;
 			sourceTree = "<group>";
@@ -40,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EBC5192F2EA144007C8E2D /* Autodoc in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +78,6 @@
 			);
 			name = AutodocProject;
 			packageProductDependencies = (
-				11EBC5182F2EA144007C8E2D /* Autodoc */,
 			);
 			productName = AutodocProject;
 			productReference = 11EBC4E12F2E9E54007C8E2D /* AutodocProject.app */;
@@ -114,7 +108,6 @@
 			mainGroup = 11EBC4D82F2E9E54007C8E2D;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				11EBC5172F2EA144007C8E2D /* XCRemoteSwiftPackageReference "Autodoc" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 11EBC4E22F2E9E54007C8E2D /* Products */;
@@ -174,7 +167,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -209,7 +202,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,25 +351,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		11EBC5172F2EA144007C8E2D /* XCRemoteSwiftPackageReference "Autodoc" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:AlexanderKadyrov/Autodoc.git";
-			requirement = {
-				kind = exactVersion;
-				version = 1.0.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		11EBC5182F2EA144007C8E2D /* Autodoc */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 11EBC5172F2EA144007C8E2D /* XCRemoteSwiftPackageReference "Autodoc" */;
-			productName = Autodoc;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11EBC4D92F2E9E54007C8E2D /* Project object */;
 }
