@@ -7,6 +7,6 @@ extension UIImage {
     }
     
     convenience init?(imageName: ImageName) {
-        self.init(named: imageName.rawValue, in: Bundle.module, with: nil)
+        self.init(named: imageName.rawValue)
     }
 }
