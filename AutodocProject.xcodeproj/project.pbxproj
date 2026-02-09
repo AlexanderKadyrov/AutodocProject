@@ -30,6 +30,11 @@
 			path = DI;
 			sourceTree = "<group>";
 		};
+		11964EFC2F3A6D2B00B83633 /* Network */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Network;
+			sourceTree = "<group>";
+		};
 		11EBC4E32F2E9E54007C8E2D /* AutodocProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -56,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				11EBC4E32F2E9E54007C8E2D /* AutodocProject */,
+				11964EFC2F3A6D2B00B83633 /* Network */,
 				11964ED72F3A6CAE00B83633 /* DI */,
 				11EBC4E22F2E9E54007C8E2D /* Products */,
 			);
@@ -86,6 +92,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				11964ED72F3A6CAE00B83633 /* DI */,
+				11964EFC2F3A6D2B00B83633 /* Network */,
 				11EBC4E32F2E9E54007C8E2D /* AutodocProject */,
 			);
 			name = AutodocProject;
