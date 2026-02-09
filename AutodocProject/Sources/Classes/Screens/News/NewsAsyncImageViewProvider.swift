@@ -1,8 +1,5 @@
 import Foundation
-import Network
 import UIKit
-import DI
-import UI
 
 final class NewsAsyncImageViewProvider: AsyncImageViewProvider {
     

@@ -1,5 +1,4 @@
 import Foundation
-import DI
 
 fileprivate extension DIStorage {
     struct RouterManagerKey: DIKey {

@@ -1,6 +1,4 @@
 import Foundation
-import Network
-import DI
 
 struct NewsServiceImpl: NewsService {
     

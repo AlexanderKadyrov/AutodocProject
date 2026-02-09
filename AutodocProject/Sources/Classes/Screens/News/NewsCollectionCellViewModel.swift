@@ -1,7 +1,6 @@
 import Foundation
 import Combine
 import UIKit
-import UI
 
 final class NewsCollectionCellViewModel: CollectionCellViewModel, @unchecked Sendable {
     

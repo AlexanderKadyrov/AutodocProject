@@ -1,8 +1,6 @@
 import Foundation
 import Combine
 import UIKit
-import DI
-import UI
 
 final class NewsCollectionCellView: UICollectionViewCell, CollectionCellView {
     

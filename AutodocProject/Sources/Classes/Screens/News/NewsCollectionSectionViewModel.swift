@@ -1,7 +1,5 @@
 import Foundation
 import Combine
-import DI
-import UI
 
 final class NewsCollectionSectionViewModel: PageableCollectionSectionViewModel, @unchecked Sendable {
     

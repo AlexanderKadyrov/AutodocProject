@@ -1,5 +1,4 @@
 import UIKit
-import UI
 
 final class NewsViewController: UIViewController {
     
