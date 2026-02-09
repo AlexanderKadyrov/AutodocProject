@@ -15,8 +15,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
-				Sources/Classes/Views/AsyncImageView,
-				Sources/Classes/Views/CollectionView,
 			);
 			target = 11EBC4E02F2E9E54007C8E2D /* AutodocProject */;
 		};
@@ -27,10 +25,6 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				119650C82F3A74F000B83633 /* Exceptions for "AutodocProject" folder in "AutodocProject" target */,
-			);
-			explicitFolders = (
-				Sources/Classes/Views/AsyncImageView,
-				Sources/Classes/Views/CollectionView,
 			);
 			path = AutodocProject;
 			sourceTree = "<group>";
