@@ -10,24 +10,12 @@
 		11EBC4E12F2E9E54007C8E2D /* AutodocProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutodocProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1196505C2F3A71D800B83633 /* Exceptions for "AutodocProject" folder in "AutodocProject" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Sources/Modules/UI,
-			);
-			target = 11EBC4E02F2E9E54007C8E2D /* AutodocProject */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		11EBC4E32F2E9E54007C8E2D /* AutodocProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				1196505C2F3A71D800B83633 /* Exceptions for "AutodocProject" folder in "AutodocProject" target */,
-			);
 			explicitFolders = (
-				Sources/Modules/UI,
+				Sources/Classes/Views/AsyncImageView,
+				Sources/Classes/Views/CollectionView,
 			);
 			path = AutodocProject;
 			sourceTree = "<group>";
