@@ -11,16 +11,6 @@
 		11EBC4E12F2E9E54007C8E2D /* AutodocProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutodocProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		11EBC4F32F2E9E55007C8E2D /* Exceptions for "AutodocProject" folder in "AutodocProject" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 11EBC4E02F2E9E54007C8E2D /* AutodocProject */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		11964ED72F3A6CAE00B83633 /* DI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -32,11 +22,13 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		11964F8C2F3A70A500B83633 /* Autodoc */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Autodoc;
+			sourceTree = "<group>";
+		};
 		11EBC4E32F2E9E54007C8E2D /* AutodocProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				11EBC4F32F2E9E55007C8E2D /* Exceptions for "AutodocProject" folder in "AutodocProject" target */,
-			);
 			path = AutodocProject;
 			sourceTree = "<group>";
 		};
@@ -57,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				11EBC4E32F2E9E54007C8E2D /* AutodocProject */,
+				11964F8C2F3A70A500B83633 /* Autodoc */,
 				11964EFC2F3A6D2B00B83633 /* Network */,
 				11964F372F3A6EF400B83633 /* UI */,
 				11964ED72F3A6CAE00B83633 /* DI */,
@@ -90,6 +83,7 @@
 			fileSystemSynchronizedGroups = (
 				11964ED72F3A6CAE00B83633 /* DI */,
 				11964EFC2F3A6D2B00B83633 /* Network */,
+				11964F8C2F3A70A500B83633 /* Autodoc */,
 				11EBC4E32F2E9E54007C8E2D /* AutodocProject */,
 			);
 			name = AutodocProject;
