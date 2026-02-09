@@ -25,6 +25,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		11964ED72F3A6CAE00B83633 /* DI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DI;
+			sourceTree = "<group>";
+		};
 		11EBC4E32F2E9E54007C8E2D /* AutodocProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -51,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				11EBC4E32F2E9E54007C8E2D /* AutodocProject */,
+				11964ED72F3A6CAE00B83633 /* DI */,
 				11EBC4E22F2E9E54007C8E2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +85,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				11964ED72F3A6CAE00B83633 /* DI */,
 				11EBC4E32F2E9E54007C8E2D /* AutodocProject */,
 			);
 			name = AutodocProject;
